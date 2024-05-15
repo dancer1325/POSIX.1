@@ -24,6 +24,9 @@
         - _Example:_ `sh u.sh`
   - `set -- [ argument...]` 
   - `set -o` / `set +o`
+    - `-o`
+      - current settings of the options — are written to — standard output / unspecified format
+      - _Example:_ `sh minusO.sh`
   - rules
       - if NO `[option]` OR `[argument]` passed == `set`  → all shell variables are written
       `"%s=%s\n", <name>, <value>`
