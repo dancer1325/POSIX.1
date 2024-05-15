@@ -15,6 +15,13 @@
         - exceptions
           - failure of individual command in a multi-command pipeline
           - TODO:
+    - `-u`
+      - if shell tries to expand an unset parameter / ≠ `@` & `*` →
+        - message written to standard error &
+          - _Example:_ TODO:
+        - expansion fails with the consequences
+          - _Example:_ TODO:
+        - _Example:_ `sh u.sh`
   - `set -- [ argument...]` 
   - `set -o` / `set +o`
   - rules
