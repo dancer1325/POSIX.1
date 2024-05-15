@@ -22,6 +22,8 @@
         - expansion fails with the consequences
           - _Example:_ TODO:
         - _Example:_ `sh u.sh`
+    - `-o option` == `-optionAbreviated`
+      - _Example:_ `sh withOption.sh` == `sh withoutOption.sh`
   - `set -- [ argument...]` 
   - `set -o` / `set +o`
     - `-o`
