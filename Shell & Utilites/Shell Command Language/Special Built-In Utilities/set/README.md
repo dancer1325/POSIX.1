@@ -5,6 +5,16 @@
 
 - syntax
   - `set [-abCefhmnuvx] [-o option] [argument...]`  / `set[+abCefhmnuvx] [+o option] [argument...]`
+    - 👁️ ALL the options are valid for `sh` also 👁️
+    - TODO:
+    - `-e`
+      - if any command fails — by — table of consequences of shell errors OR exitStatus > 0  → shell exists immediately
+        - _Exampled:_
+          - _Example1:_ `sh e.sh`
+          - _Example2:_ TODO:
+        - exceptions
+          - failure of individual command in a multi-command pipeline
+          - TODO:
   - `set -- [ argument...]` 
   - `set -o` / `set +o`
   - rules
@@ -15,3 +25,7 @@
         - Notes:
           - `readonly variableName` make it readOnly & `declare -p variableName` to check the value and read only permission
           - `set variableName=tryToPassAnotherValue` & `declare -p variableName` to check the value is the same
+      - if you pass `[argument]` → positional parameters are set OR unset
+        - set & unset / 1! invocation can be done
+          - _Example:_ TODO:
+      - 
