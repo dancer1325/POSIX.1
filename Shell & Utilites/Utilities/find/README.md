@@ -17,6 +17,13 @@
         - pattern follows '../ShellCommandLanguage/Pattern Matching Notation' 
           - Note: 👁️NOT valid 'Patterns used for filename expansion' 👁️
           - _Example:_ `sh simple.sh`
+      - TODO:
+      - `-exec utilityName [argument];`
+        - `utlityName`
+          - possible '../Utilities'
+        - `[argument]`
+          - arguments of the utility
+        - _Example:_ `sh simple.sh`
 - TODO:
 - `{PATH_MAX}`
   - optional variable / restricts descendant arbitrary paths
